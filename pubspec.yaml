@@ -1,0 +1,32 @@
+name: water_consumer
+description: "This is a water consumer application. In this app, you count your daily water consuming time and this count."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, uncomment and add your files like this:
+  # assets:
+  #   - images/your_image.png
+
+  # To add custom fonts to your application, uncomment and add like this:
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont.ttf
