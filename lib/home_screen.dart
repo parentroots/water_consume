@@ -41,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),),
 
             Padding(
+              
               padding: const EdgeInsets.all(24),
               child: TextField(
 
